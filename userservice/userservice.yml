@@ -11,7 +11,7 @@ spring:
    datasource:
       url: "jdbc:mysql://localhost:3306/spring_batch"
       username: "username"
-      password: "password"
+      password: "{cipher}a29e1cd6731cccbafde37bcfb947006aea482091aca57862f25a0b53c3e24e4e"
       testWhileIdle: "true"
       validationQuery: "SELECT 1"    
       
